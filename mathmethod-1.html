@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <title>JavaScript Math Object</title>
+    <body>
+        <script>
+            //abs() - negtive number change by positive number
+            var abs = -4;
+            document.writeln(Math.abs(abs) + "<br>");
+            document.writeln(Math.abs(0) + "<br>");
+            document.writeln(Math.abs(null) + "<br>");
+
+            //Random Number Function
+            function randomnumber(){
+                return Math.random()*1000000;
+            }
+            
+            document.write(Math.floor(randomnumber()) + "<br>");
+
+            //Ceil() -  after point value change digit 4.1 = 5
+            var ceil = 4.1;
+            document.writeln(Math.ceil(ceil) + "<br>");
+
+            //exp() - (2.718 default value then convert power value)
+
+            var exp = 2;
+            document.writeln(Math.exp(exp) + "<br>");
+
+            //Floor() - low vale result ex - 7.2 = 7;
+            var floor = 7.6;
+            document.write(Math.floor(floor));
+
+            //Log() -  show of number value log
+
+            var log = 2;
+            document.writeln(Math.log(log) + "<br>");
+
+            //Max() - Check of maximum number
+            document.writeln(Math.max(7,8,10,5,4,50,1,10) +"<br>");
+            document.writeln(Math.min(7,8,10,5,4,50,1,10) +"<br>");
+
+            //Pow() - define of base and power ex- 2*3
+            document.writeln(Math.pow(5,4) +  "<br>");
+
+            //random() - use of cpacha value use
+            document.write(Math.random() + "<br>");
+
+            //Round() - Min to max value base round (7.1 = 7 , 7.6= 8)
+            document.write(Math.round(7.4) + "<br>");
+
+            //Sign() - Checkk negative and positive number but 0 is 0
+            document.write(Math.sign(5) + "<br>");
+            document.write(Math.sign(0) + "<br>");
+            document.write(Math.sign(-5) + "<br>");
+
+            //Sqrt()- any number square root check
+            document.write(Math.sqrt(4) + "<br>");
+
+            //cbrt() 
+            document.write(Math.cbrt(16) + "<br>")
+
+            //trunc() - decimal number remove
+            document.write(Math.trunc(0.1) + "<br>")
+
+            //cos() - 
+            document.write(Math.tan(1.5) + "<br>");
+            document.write(Math.sin(1.5) + "<br>");
+            document.write(Math.cos(1.5) + "<br>");
+            document.write(Math.tanh(1.5) + "<br>");
+            document.write(Math.sinh(1.5) + "<br>");
+            document.write(Math.cosh(1.5) + "<br>");
+            document.write(Math.atan(1.5) + "<br>");
+            document.write(Math.asin(1.5) + "<br>");
+            document.write(Math.acos(1.5) + "<br>");
+
+
+
+</script>
+    </body>
+</html>
